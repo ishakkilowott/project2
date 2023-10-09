@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   <style>
+       /* Your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#fibonacci-output, #random-number-output {
+    text-align: center;
+    margin-top: 20px;
+}
+
+   </style>
+</head>
+<body>
+    <h1>Welcome to PHP Programming</h1>
+
+    <form id="fibonacci-form">
+        <label for="terms">Enter the number of terms in the Fibonacci series:</label>
+        <input type="number" id="terms" min="1" required>
+        <input type="submit" value="Generate Fibonacci Series">
+    </form>
+
+    <div id="fibonacci-output"></div>
+    <div id="random-number-output"></div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
